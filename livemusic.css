@@ -1,0 +1,60 @@
+*{
+    font-family: 'Montserrat';
+}
+.img-live_music {
+    width: 70%;
+
+}
+
+.banner {
+    background-image: url(img/Shape.png);
+    background-repeat:round;
+    height: 500px;
+}
+@media (max-width:770px){
+    .banner{
+        height: auto;
+    }
+    *{
+        text-align: center;
+    }
+    .bg-p{
+        margin:50px;
+    }
+}
+
+.layout-live_music {
+    margin-top: 70px;
+}
+
+.h_live_music {
+    font-size: 90px;
+    font-weight: 10px;
+    font-family: 'Audiowide';
+    color: #d3557c;
+}
+.bg-img{
+    text-align: center;
+}
+.bg-lorem>div {
+    font-size: 20px;
+}
+
+.bg-p {
+    border: 1px solid;
+    max-width: 80%;
+}
+
+.register {
+    background: #d3557c;
+    border-radius: 20px;
+    padding: 7px 20px 7px 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.london{
+    font-weight: bolder;
+    font-size: 30px;
+}

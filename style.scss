@@ -1,0 +1,298 @@
+$color: #f7ead2;
+$color2: #d3557c;
+$color3: #191c26;
+$color4: #ffffff;
+$color5: #000000;
+img {
+	width: 60px;
+	width: 75px;
+}
+.navbar {
+	font-size: 18px;
+}
+.nav-link {
+	color: $color;
+}
+.navbar-brand {
+	flex: 1;
+}
+.nav-item {
+	margin-left: 40px;
+}
+.search {
+	color: $color;
+}
+.img-live_music {
+	width: 70%;
+}
+.banner {
+	height: 500px;
+	background-image: url(img/Shape.png);
+	height: auto;
+	background-repeat: round;
+	> .layout-live_music {
+		margin-top: 70px;
+		padding-bottom: 50px;
+	}
+}
+.h_live_music {
+	font-size: 90px;
+	font-weight: 10px;
+	font-family: "Audiowide";
+	color: $color2;
+}
+.bg-img {
+	text-align: center;
+	display: inline-block;
+}
+.bg-lorem {
+	> div {
+		font-size: 20px;
+	}
+}
+.bg-lorems {
+	font-size: 20px;
+}
+.bg-p {
+	max-width: 80%;
+}
+.register {
+	background: #d3557c;
+	border-radius: 20px;
+	padding: 7px 20px 7px 20px;
+	border: none;
+	font-size: 18px;
+	font-family: "Montserrat";
+	color: $color;
+}
+.london {
+	font-weight: bolder;
+	font-size: 30px;
+}
+i {
+	color: $color4;
+	font-size: 20px;
+}
+h2 {
+	font-size: 80px;
+	font-family: "Audiowide";
+}
+.title {
+	font-size: 50px;
+}
+.fa {
+	margin-top: 80px;
+	font-family: "Audiowide";
+}
+h1 {
+	font-family: "Audiowide";
+	text-align: center;
+}
+.lorem {
+	max-width: 50%;
+}
+.img1 {
+	width: 90%;
+}
+.img2 {
+	width: 90%;
+	margin-left: 50px;
+}
+.img3 {
+	width: 90%;
+}
+.item-1 {
+	width: 100%;
+	margin-bottom: 20%;
+}
+.music-tour {
+	background-color: $color3;
+	color: $color4;
+}
+.lorem-music_tour {
+	padding-top: 80px;
+	> div {
+		text-align: center;
+		font-size: 20px;
+		margin: 0px 150px;
+	}
+}
+.concert-a {
+	background-image: url(img/b.png);
+	color: $color;
+	height: 650px;
+	background-repeat: round;
+	justify-content: center;
+	display: flex;
+}
+.aa {
+	margin-top: 50px;
+}
+.concert-b {
+	background-image: url(img/3.png);
+	color: $color3;
+	height: 650px;
+	background-repeat: round;
+	justify-content: center;
+	display: flex;
+}
+.concert-c {
+	background-image: url(img/4.png);
+	color: $color2;
+	height: 650px;
+	background-repeat: round;
+	justify-content: center;
+	display: flex;
+}
+.layout_div_concert {
+	max-width: 50%;
+	font-size: 20px;
+}
+.col-md-4 {
+	margin-top: 50px;
+}
+.col-md-8 {
+	margin-top: 50px;
+}
+.order_b2 {
+	order: 1;
+}
+.order_b1 {
+	order: 2;
+}
+.b {
+	margin: auto;
+}
+.c {
+	margin: auto;
+}
+.our-statistics {
+	text-align: center;
+	background-color: $color3;
+	color: $color4;
+	height: 600px;
+	font-size: 20px;
+}
+.layout_our {
+	> .title {
+		margin-top: 100px;
+	}
+}
+.div {
+	margin-top: 100px;
+}
+.item_our {
+	font-size: 30px;
+	padding-top: 50px;
+}
+.full_album {
+	background: $color;
+	text-align: center;
+	> div {
+		text-align: center;
+		font-size: 20px;
+	}
+}
+.subscribe {
+	text-align: center;
+	background: $color2;
+	height: 550px;
+	color: $color;
+	> div {
+		text-align: center;
+		font-size: 20px;
+		margin: 0px 150px;
+	}
+}
+.form-control {
+	border-radius: 20px;
+	height: 50px;
+	background-color: $color;
+}
+.btn-secondary {
+	border-radius: 20px;
+	height: 50px;
+	width: 25%;
+}
+.btn {
+	background-color: $color3;
+}
+.footer {
+	background-color: $color3;
+	color: #f7ead2;
+}
+li {
+	list-style-type: none;
+	margin-left: -30px;
+}
+.lorem-full_album {
+	text-align: center;
+	font-size: 22px;
+	margin: 0px 150px;
+	padding-bottom: 30px;
+}
+.sss {
+	text-align: center;
+	padding-top: 100px;
+}
+.layout_infor {
+	margin-top: 50px;
+}
+h3 {
+	font-family: "Audiowide";
+}
+h4 {
+	font-family: "Audiowide";
+}
+.fa-brands {
+	font-size: 30px;
+	display: inline-block;
+	margin: 0px 5px;
+}
+.input-group {
+	max-width: 70%;
+	padding-top: 15px;
+}
+.lorem_footer {
+	width: 80%;
+}
+@media (max-width: 770px) {
+	.layout-live_music {
+		padding-bottom: 15px;
+	}
+	.concert-a {
+		height: 100%;
+		color: #000000;
+	}
+	.concert-b {
+		height: 100%;
+		color: $color5;
+	}
+	.concert-c {
+		height: 100%;
+		color: $color5;
+	}
+	.order_b1 {
+		order: 1;
+	}
+	.order_b2 {
+		order: 2;
+	}
+	.layout_div_concert {
+		max-width: 100%;
+		padding-bottom: 15px;
+	}
+	.our-statistics {
+		height: auto;
+		padding-bottom: 15px;
+	}
+	.lorem-full_album {
+		margin: 0px;
+	}
+	.btn-secondary {
+		width: 40%;
+	}
+	.input-group {
+		margin: auto;
+	}
+}
